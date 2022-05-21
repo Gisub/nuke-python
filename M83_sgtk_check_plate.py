@@ -2,12 +2,11 @@ import shotgun_api3
 import nuke
 import os
 import re
-from forthsg import sg_connect
 
 def get_shotgun_module():
     # connect
     sgl = sg_connect()
-    sg = sgl.script_auth(script_name="Toolkit", api_key="bnfztcat%aXv1nydleqwogwwk")
+    sg = sgl.script_auth(script_name="Toolkit", api_key="")
     return sg
 
 sg = get_shotgun_module()
